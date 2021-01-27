@@ -2,14 +2,8 @@ package main
 
 import (
 	"fmt"
-	"database/sql"
-	_ "github.com/go-sql-driver/mysql"
 )
 
-type User struct {
-	Name string `json:"name"`
-	Age uint16 `json:"age"`
-}
 
 
 func main() {
